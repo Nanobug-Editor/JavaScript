@@ -1,0 +1,5 @@
+# Preserve literal whitespace in the existing generated service bundle during migration.
+/native/server.cjs whitespace=-blank-at-eol
+# Upstream TypeScript notices retain their original legal text and whitespace.
+/licenses/native/typescript-LICENSE.txt whitespace=-blank-at-eol
+/licenses/native/typescript-ThirdPartyNoticeText.txt whitespace=-blank-at-eol,-blank-at-eof
